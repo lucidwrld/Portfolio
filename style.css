@@ -1,0 +1,47 @@
+.first {
+ height: 100vh;
+ width: 100%;
+
+}
+
+.hd h1 {
+ font-family: 'Times New Roman', Times, serif;
+
+ font-weight: 600;
+ color: rgb(37, 33, 33);
+}
+
+.hd h4 {
+ font-weight: 600;
+}
+
+.profile {
+ width: 280px;
+ height: 280px;
+ border-radius: 190px;
+ background: url(profile.JPG);
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+
+.projects .container img {
+ width: 300px;
+ height: 200px;
+}
+.projects .container .card{
+ width: 300px;
+}
+
+.endd {
+ display: flex;
+ flex-direction: column;
+}
+@media screen and (max-width: 550px) {
+ .projects .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+ }
+}
